@@ -1,0 +1,500 @@
+
+body {
+  font-family: "Garamon", Serif;
+  background-color: #990000;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  font-family: "Georgia", Serif;
+  background-color: #990000;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+  color:#ffffff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-title h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.header-title p {
+  font-size: 18px;
+  margin: 0;
+  font-style: italic;
+}
+
+
+.logo {
+  height: 150px;
+  width: auto;
+  position:relative;
+  right:20px;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  font-size: 20px;  
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.navbar a:hover {
+  background-color: #336600;
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 20;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.navbar {
+  background-color:#009900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+.welcome {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.welcome-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+
+.welcome-text h1 {
+  font-family:"Lucida Handwriting", Cursive;
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.welcome-text h3 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.welcome-text p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.tajuk {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  margin: 0 auto 40px;
+  max-width: 300px;
+  border-radius: 8px;
+  height: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tajuk h2 {
+  margin: 0;
+  font-size: 50px;
+  color: #004080;
+}
+
+
+.content {
+  background-color: #990000;
+  padding: 40px 20px;
+}
+
+.content .container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+.content h2 {
+  color: #004080;
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content h3 {
+  color: #004080;
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom:5px;
+}
+
+.content p, .content ul {
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: 0;
+  text-align: center;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.scroll-gambar-section {
+  display: flex;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #990000;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.scroll-gambar-box {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top:50px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.scroll-gambar-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.scroll-teks {
+  max-width: 600px;
+  flex: 1;
+}
+
+.scroll-teks h2 {
+  color: #004080;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.scroll-teks p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.news-section {
+  padding: 50px 20px;
+  background-color:  #990000;
+  text-align: center;
+}
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.news-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.news-content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-content .tarikh {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.news-content p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #004080;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #0066cc;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #990000;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  color: #004080;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.contact-card {
+  background-color: white;
+  width: 280px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card .material-icons {
+  font-size: 36px;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.contact-card h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 15px;
+  color: #555;
+}
+
+.contact-card a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.map-card {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.donation-bar {
+  background-color: #c2f0c2;
+  border-top: 2px solid #336600;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+.donation-bar p {
+  margin: 0;
+}
+
+.donate-link {
+  background-color: #336600;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.donate-link:hover {
+  background-color: #ff6600;
+}
+
+.kad-derma {
+  background-color: #ebfaeb;
+  border: 1px solid #ffd699;
+  border-radius: 12px;
+  padding: 40px 30px;
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.kad-derma h2 {
+  font-size: 28px;
+  color: #145214;
+  margin-bottom: 20px;
+}
+
+.kad-derma p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.akaun-box {
+  background-color: #85e085;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.bank-logo {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+
+
+footer {
+  background-color:#009900;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  clear: both;
+}
