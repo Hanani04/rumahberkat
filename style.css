@@ -7,6 +7,7 @@ body {
 }
 
 /*START HEADER*/
+
 header {
   font-family: "Georgia", Serif;
   background-color: #990000;
@@ -128,6 +129,7 @@ header {
   padding: 15px 0;
 }
 
+/*START WELCOME HOME PAGE*/
 
 .welcome {
   position: relative;
@@ -182,6 +184,10 @@ header {
   margin-top: 0;
 }
 
+/*END WELCOME HOME PAGE*/
+
+/*START EVERY TAJUK*/
+
 .tajuk {
   background-color: #ffffff;
   padding: 20px 30px;
@@ -198,10 +204,14 @@ header {
   color: #004080;
 }
 
+/*END EVERY TAJUK*/
+
+/*START CONTENT*/
 
 .content {
   background-color: #990000;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .content .container {
@@ -247,6 +257,10 @@ header {
 .content ul {
   padding-left: 20px;
 }
+
+/*END CONTENT*/
+
+/*START SCROLL GAMBAR*/
 
 .scroll-gambar-section {
   display: flex;
@@ -295,6 +309,11 @@ header {
   font-size: 16px;
   line-height: 1.6;
 }
+
+/*END SCROLL GAMBAR*/
+
+
+/*START NEWS*/
 
 .news-section {
   padding: 50px 20px;
@@ -365,6 +384,10 @@ header {
   background-color: #0066cc;
 }
 
+/*END NEWS*/
+
+/*START CONTACT*/
+
 .contact-section {
   padding: 50px 20px;
   background-color: #990000;
@@ -428,6 +451,10 @@ header {
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
+
+/*END CONTACT*/
+
+/*START DONATION*/
 
 .donation-bar {
   background-color: #c2f0c2;
@@ -494,6 +521,8 @@ header {
   max-width: 100px;
   margin-bottom: 15px;
 }
+
+/*END DONATION*/
 
 .profile {
   width: 180px;
