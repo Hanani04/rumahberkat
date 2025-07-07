@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-
+/*START HEADER*/
 header {
   font-family: "Georgia", Serif;
   background-color: #990000;
@@ -40,13 +40,16 @@ header {
   font-style: italic;
 }
 
-
 .logo {
   height: 150px;
   width: auto;
   position:relative;
   right:20px;
 }
+
+/*END HEADER*/
+
+/*START NAVIGATION*/
 
 .navbar {
   background-color: #333;
@@ -71,6 +74,10 @@ header {
   background-color: #336600;
   border-radius: 10px;
 }
+
+/*END NAVIGATION*/
+
+/*START DROPDWON*/
 
 .dropdown {
   position: relative;
@@ -110,6 +117,8 @@ header {
   display: inline-block;
 }
 
+/*END DROPDOWN*/
+
 .navbar {
   background-color:#009900;
   display: flex;
@@ -118,6 +127,7 @@ header {
   gap: 30px;
   padding: 15px 0;
 }
+
 
 .welcome {
   position: relative;
@@ -485,7 +495,17 @@ header {
   margin-bottom: 15px;
 }
 
+.profile {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
 
+/*START FOOTER*/
 
 footer {
   background-color:#009900;
@@ -498,3 +518,5 @@ footer {
   display: block;
   clear: both;
 }
+
+/*END FOOTER*/
